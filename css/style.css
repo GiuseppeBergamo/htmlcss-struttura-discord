@@ -1,5 +1,96 @@
+/* COLORS */
+/* 
+#3161e0 
+#364d8e
+#e177a8
+
+#292841
+#f6f6f6
+*/
+
+/* Generics */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header{
+    min-height: 200px;
+    background-color: #3161e0;
+}
+
+/* Utils */
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    min-height: 650px;
+    align-items: center;
+}
+
+.container{
+    min-height: 300px;
+
+}
+
+.gray{
+    background-color: #f6f6f6;
+}
+/* Header */
+
+header section:first-child{
+    min-height: 50px;
+    background-color:#364d8e;
+}
+
+header section:last-child{
+    min-height: 300px;
+    width: 600px;
+    background-color:#e177a8;
+    display: flex;
+
+}
+
+/* main */
+.flex-section{
+    display: flex;
+    padding: 150px 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.img{
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #292841;
+}
+section aside{
+    min-width: 400px;
+    min-height: 600px;
+    background-color: #292841;
+}
+
+.flex-sectionbig{
+    display: flex;
+    padding: 150px 200px;
+    min-height: 900px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bigimg{
+    min-width: 900px;
+    min-height: 400px;
+    background-color: #292841;
+}
+
+.testo{
+    min-width: 500px;
+    min-height: 100px;
+    background-color: #292841;
 }
